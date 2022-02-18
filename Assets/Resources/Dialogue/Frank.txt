@@ -1,0 +1,29 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Hoi ik ben Frank"
+    },
+    {
+      "line": "Ik ben de koele boii Koraalstad"
+    },
+    {
+      "line": "Ik zou je graag willen helpen het monster te verslaan"
+    },
+    {
+      "line": "Maar ik ben koel en om andere mensen geven is lame"
+    },
+    {
+      "line": "En het is niet mijn probleem"
+    },
+    {
+      "line": "Oja ik ben ook rapper"
+    },
+    {
+      "line": "Maar @ me maar als het wel mijn probleem is"
+    },
+    {
+      "line": "Check je later pik"
+    }
+  ]
+}
