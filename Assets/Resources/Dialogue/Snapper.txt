@@ -1,0 +1,29 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Well... this is a problem"
+    },
+    {
+      "line": "Good to see you! I need some help"
+    },
+    {
+      "line": "Some loose rocks on the mountain (LATER UPDATE) are about to fall down."
+    },
+    {
+      "line": "This would destroy part of out town..."
+    },
+    {
+      "line": "Could you climb up and reinforce some of the rocks?"
+    },
+    {
+      "line": "I would do it myself but I am not capable of climbing these walls."
+    },
+    {
+      "line": "It would save a lot of lives and houses."
+    },
+    {
+      "line": "I will be waiting here."
+    }
+  ]
+}

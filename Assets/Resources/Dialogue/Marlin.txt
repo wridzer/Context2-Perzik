@@ -1,0 +1,26 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Tuna! Where are you!"
+    },
+    {
+      "line": "I need your help! Right now!"
+    },
+    {
+      "line": "I think my daughter is stuck in this cave..."
+    },
+    {
+      "line": "My priority lies with saving my little Tuna!"
+    },
+    {
+      "line": "I suppose I would owe you if you could help me..."
+    },
+    {
+      "line": "I am not strong enough to move all this debris!"
+    },
+    {
+      "line": "Please save her! (FUTURE UPDATE)"
+    }
+  ]
+}
