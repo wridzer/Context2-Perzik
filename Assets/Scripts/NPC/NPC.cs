@@ -12,7 +12,7 @@ public class NPC : MonoBehaviour
 
     //Dialogue Variables
     [SerializeField] protected string name;
-    [SerializeField] private GameObject canvasInstance;
+    [SerializeField] private GameObject canvasInstance, textInstance;
     [SerializeField] private List<string> dialogueLines;
     private int dialogueCounter = 0;
 
@@ -34,7 +34,7 @@ public class NPC : MonoBehaviour
         {
             //display dialogue
             canvasInstance.SetActive(true);
-            canvasInstance.GetComponentInChildren<TMP_Text>().text = dialogueLines[dialogueCounter];
+            textInstance.GetComponent<TMP_Text>().text = dialogueLines[dialogueCounter];
         }
     }
 
@@ -43,7 +43,7 @@ public class NPC : MonoBehaviour
         if (dialogueCounter < dialogueLines.Count - 1)
         {
             dialogueCounter++;
-            canvasInstance.GetComponentInChildren<TMP_Text>().text = dialogueLines[dialogueCounter];
+            textInstance.GetComponent<TMP_Text>().text = dialogueLines[dialogueCounter];
         }
         else
         {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BrickHolder : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         GetComponentInParent<BrickQuest>().AddedBrick(gameObject);
     }
