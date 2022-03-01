@@ -1,0 +1,29 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Thank god you are here!"
+    },
+    {
+      "line": "I get that you want to beat the monster but..."
+    },
+    {
+      "line": "You see, the recent attack destroyed my house!"
+    },
+    {
+      "line": "I really have to fix it first."
+    },
+    {
+      "line": "Maybe if you could help me?"
+    },
+    {
+      "line": "There should be some more parts around here somewhere..."
+    },
+    {
+      "line": "Maybe I can help you in return when you are done."
+    },
+    {
+      "line": "Thank you!"
+    }
+  ]
+}
