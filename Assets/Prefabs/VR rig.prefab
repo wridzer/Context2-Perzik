@@ -529,7 +529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338888937639026239}
   - component: {fileID: 1338888937639026238}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: buttonpresser
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1462,7 +1462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338888939179166752}
   - component: {fileID: 1338888939179166755}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: buttonpresser
   m_TagString: Player
   m_Icon: {fileID: 0}

@@ -9,6 +9,7 @@ public class Climber : MonoBehaviour
     private CharacterController characterController;
     public static XRController climbingHand;
     private DeviceBasedContinuousMoveProvider continuousMovement;
+    private Movement movement;
 
     private XRController previousHand;
     private Vector3 previousPos;
@@ -18,6 +19,7 @@ public class Climber : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         continuousMovement = GetComponent<DeviceBasedContinuousMoveProvider>();
+        movement = GetComponent<Movement>();
         Debug.Log(previousPos);
     }
 
@@ -26,11 +28,13 @@ public class Climber : MonoBehaviour
         if (climbingHand)
         {
             continuousMovement.enabled = false;
+            movement.enabled = false;
             Climb();
         }
         else
         {
             continuousMovement.enabled = true;
+            movement.enabled = true;
         }
     }
 

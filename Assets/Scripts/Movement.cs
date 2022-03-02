@@ -12,6 +12,7 @@ public class Movement : MonoBehaviour
     private XROrigin rig;
     private CharacterController characterController;
     [SerializeField] private float moveSpeed = 1;
+    [SerializeField] private float gravity = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class Movement : MonoBehaviour
         Quaternion headYaw = Quaternion.Euler(0, rig.Camera.transform.eulerAngles.y, 0);
 
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
-        characterController.Move(direction * Time.fixedDeltaTime * moveSpeed);
+        Vector3 gravityV = new Vector3(0, -gravity, 0);
+        characterController.Move((direction + gravityV) * Time.fixedDeltaTime * moveSpeed);
     }
 }
