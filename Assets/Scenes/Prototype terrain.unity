@@ -1144,6 +1144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalBrickHolder: {fileID: 1930000935}
   npc: {fileID: 154574825}
+  oldHouse: {fileID: 0}
+  newHouse: {fileID: 0}
 --- !u!4 &1008938247
 Transform:
   m_ObjectHideFlags: 0
@@ -8335,18 +8337,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2022857433, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1338888937614660561, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 154574825}
-    - target: {fileID: 1338888937639026236, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1338888938483850314, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8397,10 +8391,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1338888938868180594, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1338888939179166753, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

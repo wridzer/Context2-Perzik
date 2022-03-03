@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd92baae37c480a47a544864d88d87f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Frank
+  name: Marlin
   canvasInstance: {fileID: 8663988055337296968}
   textInstance: {fileID: 8663988055671506730}
   dialogueLines: []
