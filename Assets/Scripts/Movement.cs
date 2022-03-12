@@ -8,6 +8,7 @@ using Unity.XR.CoreUtils;
 public class Movement : MonoBehaviour
 {
     [SerializeField] private XRNode inputSource;
+    [SerializeField] private GameObject VRCam;
     private Vector2 inputAxis;
     private XROrigin rig;
     private CharacterController characterController;
@@ -26,6 +27,8 @@ public class Movement : MonoBehaviour
     {
         InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
         device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
+        //characterController.center = new Vector3(VRCam.transform.position.x - transform.position.x, 1f, VRCam.transform.position.y - transform.position.y);
+
     }
 
     private void FixedUpdate()

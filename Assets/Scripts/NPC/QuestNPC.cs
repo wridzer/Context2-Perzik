@@ -16,7 +16,7 @@ public class QuestNPC : NPC
     {
         if (questComplete)
         {
-            Move();
+            //Move();
         }
     }
 

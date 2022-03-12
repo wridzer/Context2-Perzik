@@ -12,16 +12,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20.038958
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 441.5685
+      value: 5.4010315
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.169
+      value: -0.39005303
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 658.454
+      value: 19.298035
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29,7 +33,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
       propertyPath: m_LocalRotation.y
@@ -53,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
       propertyPath: m_Name
-      value: baksteen_low
+      value: Baksteen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
@@ -78,6 +82,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &6796703734910521693
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441573705438419094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4068373912626513877, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}
 --- !u!114 &394731676396291947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,10 +132,34 @@ MonoBehaviour:
       m_Calls: []
   m_FirstSelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6796703734910521693}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_LastSelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6796703734910521693}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -194,17 +236,3 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!64 &6796703734910521693
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6441573705438419094}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4068373912626513877, guid: cb074c2da64dc934b9ec58fa7fc3850e, type: 3}

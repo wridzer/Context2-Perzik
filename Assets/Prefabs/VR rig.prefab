@@ -1397,7 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputSource: 4
   moveSpeed: 1.5
-  gravity: 1
+  gravity: 1.5
 --- !u!114 &2022857431
 MonoBehaviour:
   m_ObjectHideFlags: 0

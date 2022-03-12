@@ -9,14 +9,10 @@ public class BrickQuest : MonoBehaviour
     [SerializeField] private QuestNPC npc;
     [SerializeField] private GameObject oldHouse, newHouse;
 
-    // Update is called once per frame
-    void Update()
+    public void AddedBrick(GameObject brickHolder)
     {
-        /*if(brickCount == 2)
-        {
-            finalBrickHolder.SetActive(true);
-        }*/
-
+        brickHolder.GetComponent<MeshRenderer>().enabled = false;
+        brickCount++;
         if (brickCount == 12)
         {
             npc.GetComponent<QuestNPC>().QuestComplete();
@@ -24,10 +20,9 @@ public class BrickQuest : MonoBehaviour
             newHouse.SetActive(true);
         }
     }
-
-    public void AddedBrick(GameObject brickHolder)
+    public void RemovedBrick(GameObject brickHolder)
     {
-        brickHolder.GetComponent<MeshRenderer>().enabled = false;
-        brickCount++;
+        brickHolder.GetComponent<MeshRenderer>().enabled = true;
+        brickCount--;
     }
 }
