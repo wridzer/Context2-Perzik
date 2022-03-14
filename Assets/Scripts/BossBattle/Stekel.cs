@@ -11,7 +11,7 @@ public class Stekel : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        battleManager = transform.parent.GetComponent<BossBattleManager>();
+        battleManager = transform.parent.transform.parent.GetComponent<BossBattleManager>();
     }
 
     //on collission, enable rigidbody and count on battle manager

@@ -15,6 +15,13 @@ public class BossBattleManager : MonoBehaviour
         {
             //bossbattle ended
             Debug.Log("You Won");
+            StartCoroutine(DisableSquidDelay(2));
         }
+    }
+
+    private IEnumerator DisableSquidDelay(float secs)
+    {
+        yield return new WaitForSeconds(secs);
+        gameObject.SetActive(false);
     }
 }
