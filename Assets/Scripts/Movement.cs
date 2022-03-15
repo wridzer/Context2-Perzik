@@ -20,6 +20,7 @@ public class Movement : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         rig = GetComponent<XROrigin>();
+        VRCam.transform.position = new Vector3(transform.position.x, VRCam.transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame
@@ -28,7 +29,6 @@ public class Movement : MonoBehaviour
         InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
         device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
         //characterController.center = new Vector3(VRCam.transform.position.x - transform.position.x, 1f, VRCam.transform.position.y - transform.position.y);
-
     }
 
     private void FixedUpdate()

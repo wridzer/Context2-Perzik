@@ -21,6 +21,7 @@ public class Stekel : MonoBehaviour
         {
             rb.constraints = RigidbodyConstraints.None;
             battleManager.StekelHit();
+            GetComponent<Stekel>().enabled = false;
         }
     }
 }
