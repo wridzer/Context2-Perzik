@@ -12142,6 +12142,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439876952}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &453378966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 453378967}
+  - component: {fileID: 453378968}
+  m_Layer: 6
+  m_Name: SwordCollider
+  m_TagString: Sword
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453378967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453378966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1824309376}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &453378968
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453378966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.78, z: 1}
+  m_Center: {x: 0, y: 0.22, z: 0}
 --- !u!1 &457227546
 GameObject:
   m_ObjectHideFlags: 0
@@ -53551,6 +53595,7 @@ Transform:
   m_LocalScale: {x: 0.08667764, y: 0.5429177, z: 0.08667764}
   m_Children:
   - {fileID: 238411918}
+  - {fileID: 453378967}
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53563,7 +53608,7 @@ BoxCollider:
   m_GameObject: {fileID: 1824309370}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.0000001, y: 1.39, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0.38, z: -0.00000008940697}
@@ -58001,15 +58046,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1338888938868180594, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 415.803
+      value: 444.096
       objectReference: {fileID: 0}
     - target: {fileID: 1338888938868180594, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.472
+      value: 0.466
       objectReference: {fileID: 0}
     - target: {fileID: 1338888938868180594, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 639.49
+      value: 654.648
       objectReference: {fileID: 0}
     - target: {fileID: 1338888938868180594, guid: bba05a6c78ec6b64fb5b8ed1d6e6febe, type: 3}
       propertyPath: m_LocalRotation.w
