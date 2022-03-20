@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a23124c8-d7b8-4ce2-bf96-d7fa060277a2}">
+		<property name="assetPath">
+			<value>EAF_Water_Drop_03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.52390022675736958</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{23f22997-fb99-4188-8413-afcccc95b8de}</destination>
+		</relationship>
+	</object>
+</objects>
