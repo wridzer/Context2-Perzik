@@ -17,6 +17,8 @@ public static class JSONReader
 
         if(lines.Count == 0)
         {
+            lines.Add("Designer probably made a typo in the JSON file or the NPC name for NPC: ");
+            lines.Add(_name);
             Debug.LogError("Designer probably made a typo in the JSON file or the NPC name for NPC: " + _name);
         }
 

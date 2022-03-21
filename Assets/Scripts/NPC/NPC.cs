@@ -26,6 +26,7 @@ public class NPC : MonoBehaviour
     public void QuestComplete()
     {
         questComplete = true;
+        dialogueLines = JSONReader.GetDialogue(name + "1");
     }
 
     public void Speak()
