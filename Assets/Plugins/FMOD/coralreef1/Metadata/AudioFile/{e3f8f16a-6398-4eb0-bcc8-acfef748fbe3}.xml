@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e3f8f16a-6398-4eb0-bcc8-acfef748fbe3}">
+		<property name="assetPath">
+			<value>hot_tub.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>4</value>
+		</property>
+		<property name="length">
+			<value>115.11453125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{23f22997-fb99-4188-8413-afcccc95b8de}</destination>
+		</relationship>
+	</object>
+</objects>

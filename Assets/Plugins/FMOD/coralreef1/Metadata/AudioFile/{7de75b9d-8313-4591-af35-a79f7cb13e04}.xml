@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7de75b9d-8313-4591-af35-a79f7cb13e04}">
+		<property name="assetPath">
+			<value>EAF_Forest_Stomp_7.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.2986621315192744</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{23f22997-fb99-4188-8413-afcccc95b8de}</destination>
+		</relationship>
+	</object>
+</objects>
