@@ -9,11 +9,12 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] private XRNode inputSource;
     [SerializeField] private GameObject VRCam;
+    [SerializeField] private LayerMask groundLayer;
     private Vector2 inputAxis;
     private XROrigin rig;
     private CharacterController characterController;
-    [SerializeField] private float moveSpeed = 1;
-    [SerializeField] private float gravity = 1;
+    [SerializeField] private float moveSpeed, gravity, additionalHeight;
+    private float fallSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -28,15 +29,42 @@ public class Movement : MonoBehaviour
     {
         InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
         device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
-        //characterController.center = new Vector3(VRCam.transform.position.x - transform.position.x, 1f, VRCam.transform.position.y - transform.position.y);
     }
 
     private void FixedUpdate()
     {
-        Quaternion headYaw = Quaternion.Euler(0, rig.Camera.transform.eulerAngles.y, 0);
+        ColliderFollow();
 
+        Quaternion headYaw = Quaternion.Euler(0, rig.Camera.transform.eulerAngles.y, 0);
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
-        Vector3 gravityV = new Vector3(0, -gravity, 0);
-        characterController.Move((direction + gravityV) * Time.fixedDeltaTime * moveSpeed);
+
+        characterController.Move(direction * Time.fixedDeltaTime * moveSpeed);
+
+        if (GroundCheck())
+        {
+            fallSpeed = 0;
+        }
+        else
+        {
+            fallSpeed += gravity * Time.fixedDeltaTime;
+        }
+
+
+        characterController.Move(Vector3.up * fallSpeed * Time.fixedDeltaTime);
+    }
+
+    private void ColliderFollow()
+    {
+        characterController.height = rig.CameraInOriginSpaceHeight + additionalHeight;
+        Vector3 capsuleCenter = transform.InverseTransformPoint(rig.Camera.transform.position);
+        characterController.center = new Vector3(capsuleCenter.x, characterController.height/2 + characterController.skinWidth, capsuleCenter.z);
+    }
+
+    private bool GroundCheck()
+    {
+        Vector3 rayStart = transform.TransformPoint(characterController.center);
+        float rayLength = characterController.center.y + 0.01f;
+        bool hasHit = Physics.SphereCast(rayStart, characterController.radius, Vector3.down, out RaycastHit hit, rayLength, groundLayer);
+        return hasHit;
     }
 }

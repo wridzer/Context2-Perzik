@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1338888937185501188}
   - component: {fileID: 1338888937185501192}
-  - component: {fileID: 1338888937185501193}
   - component: {fileID: 1338888937185501190}
   - component: {fileID: 1338888937185501191}
   - component: {fileID: -1358085516995542764}
-  m_Layer: 0
+  - component: {fileID: 1929023856}
+  m_Layer: 3
   m_Name: VRCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -78,14 +78,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1338888937185501193
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338888937185501189}
-  m_Enabled: 1
 --- !u!114 &1338888937185501190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +142,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attenuationObject: {fileID: 0}
   ListenerNumber: -1
+--- !u!114 &1929023856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338888937185501189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1 &1338888937614660557
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +169,7 @@ GameObject:
   - component: {fileID: 1338888937614660561}
   - component: {fileID: 1338888937614660558}
   - component: {fileID: 1338888937614660559}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ray Interactor R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,6 +263,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Speak
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Speak
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -323,7 +353,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0.1
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 96
+    m_Bits: 288
   m_RaycastTriggerInteraction: 1
   m_HitClosestOnly: 0
   m_HoverToSelect: 0
@@ -544,7 +574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338888937639026239}
   - component: {fileID: 1338888937639026238}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: buttonpresser
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -590,7 +620,7 @@ GameObject:
   - component: {fileID: 1338888937953998480}
   - component: {fileID: 1338888937953998482}
   - component: {fileID: 1338888937953998483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Hand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -744,7 +774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1338888938372995248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CameraOffset
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -783,7 +813,7 @@ GameObject:
   - component: {fileID: 1338888938483850314}
   - component: {fileID: 1338888938483850315}
   - component: {fileID: 1338888938483850312}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ray Interactor L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +973,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0.1
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 96
+    m_Bits: 288
   m_RaycastTriggerInteraction: 1
   m_HitClosestOnly: 0
   m_HoverToSelect: 0
@@ -1166,7 +1196,7 @@ GameObject:
   - component: {fileID: 1338888938657175576}
   - component: {fileID: 1338888938657175578}
   - component: {fileID: 1338888938657175579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Hand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1327,7 +1357,7 @@ GameObject:
   - component: {fileID: 2022857431}
   - component: {fileID: 2022857432}
   - component: {fileID: 2022857433}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: VR rig
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1411,9 +1441,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputSource: 4
-  VRCam: {fileID: 0}
+  VRCam: {fileID: 1338888937185501189}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
   moveSpeed: 1.5
-  gravity: 1.5
+  gravity: -9.81
+  additionalHeight: 0.02
 --- !u!114 &2022857431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1426,7 +1460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4f2c0214c9b494fa7eb5b8b2c02885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 1232223041}
   m_TurnAmount: 45
   m_DebounceTime: 0.5
   m_EnableTurnLeftRight: 1
@@ -1479,7 +1513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338888939179166752}
   - component: {fileID: 1338888939179166755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: buttonpresser
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1523,6 +1557,10 @@ PrefabInstance:
     - target: {fileID: 801904395420476499, guid: e29a70b60e4dd334dbd70ce67d40b7c8, type: 3}
       propertyPath: m_Name
       value: RightHandPresence
+      objectReference: {fileID: 0}
+    - target: {fileID: 801904395420476499, guid: e29a70b60e4dd334dbd70ce67d40b7c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1873791011869801880, guid: e29a70b60e4dd334dbd70ce67d40b7c8, type: 3}
       propertyPath: m_RootOrder
@@ -1585,6 +1623,10 @@ PrefabInstance:
     - target: {fileID: 801904395420476499, guid: 0c06950400221d346b089b3f1a2e435f, type: 3}
       propertyPath: m_Name
       value: LeftHandPresence
+      objectReference: {fileID: 0}
+    - target: {fileID: 801904395420476499, guid: 0c06950400221d346b089b3f1a2e435f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1873791011869801880, guid: 0c06950400221d346b089b3f1a2e435f, type: 3}
       propertyPath: m_RootOrder

@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1264675488942206512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: I:/Game Design/Game Audio/Projects/coralreef1/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637834184645282316
-  FileSizes:
-  - Name: Desktop
-    Value: 956
-  Exists: 1
 --- !u!114 &-1170365318241046855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +19,7 @@ MonoBehaviour:
     Data3: 1513099145
     Data4: 740052633
   Banks:
-  - {fileID: 7297439215931827106}
+  - {fileID: 7722760261229896248}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -66,7 +46,7 @@ MonoBehaviour:
     Data3: -1627016514
     Data4: 1391805739
   Banks:
-  - {fileID: 7297439215931827106}
+  - {fileID: 7722760261229896248}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -88,8 +68,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -1264675488942206512}
-  - {fileID: 7297439215931827106}
+  - {fileID: 1211990047214991407}
+  - {fileID: 7722760261229896248}
   EditorEvents:
   - {fileID: 2969310040555147882}
   - {fileID: 8664990263749065982}
@@ -97,11 +77,31 @@ MonoBehaviour:
   - {fileID: -1170365318241046855}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 7297439215931827106}
+  - {fileID: 7722760261229896248}
   StringsBanks:
-  - {fileID: -1264675488942206512}
-  cacheTime: 637834184645282316
+  - {fileID: 1211990047214991407}
+  cacheTime: 637834545793470349
   cacheVersion: 10
+--- !u!114 &1211990047214991407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/coralreef1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637834545793470349
+  FileSizes:
+  - Name: Desktop
+    Value: 956
+  Exists: 1
 --- !u!114 &2969310040555147882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
     Data3: 1584420792
     Data4: 1430092170
   Banks:
-  - {fileID: 7297439215931827106}
+  - {fileID: 7722760261229896248}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 35
   Length: 9200
---- !u!114 &7297439215931827106
+--- !u!114 &7722760261229896248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,10 +141,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: I:/Game Design/Game Audio/Projects/coralreef1/Build/Desktop/Master.bank
+  Path: Assets/Plugins/FMOD/coralreef1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637834184645272344
+  lastModified: 637834545793460341
   FileSizes:
   - Name: Desktop
     Value: 4073184
@@ -192,7 +192,7 @@ MonoBehaviour:
     Data3: 292655284
     Data4: -1920563015
   Banks:
-  - {fileID: 7297439215931827106}
+  - {fileID: 7722760261229896248}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
