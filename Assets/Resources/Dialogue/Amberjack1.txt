@@ -1,0 +1,14 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "This will have to do for now..."
+    },
+    {
+      "line": "Well... Thanks. I appreciate your help."
+    },
+    {
+      "line": "If you ever need me, you know where to find me!"
+    }
+  ]
+}

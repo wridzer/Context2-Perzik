@@ -2,28 +2,28 @@
   "dialogues":
   [
     {
-      "line": "Well... this is a problem"
+      "line": "Greetings, my confidante..."
     },
     {
-      "line": "Good to see you! I need some help"
+      "line": "I know I acted rude before, and again I am sorry."
     },
     {
-      "line": "Some loose rocks on the mountain (LATER UPDATE) are about to fall down."
+      "line": "But I really need your help!"
     },
     {
-      "line": "This would destroy part of out town..."
+      "line": "You see... These shockwaves are dangerous."
     },
     {
-      "line": "Could you climb up and reinforce some of the rocks?"
+      "line": "If we don't climb this cliff and secure some of the rocks..."
     },
     {
-      "line": "I would do it myself but I am not capable of climbing these walls."
+      "line": "They could cause an avalanche and destroy part of the town!"
     },
     {
-      "line": "It would save a lot of lives and houses."
+      "line": "I would help... but I can't climb these walls... Why do I have to be so weak?"
     },
     {
-      "line": "I will be waiting here."
+      "line": "Anyway, goodluck and be careful!"
     }
   ]
 }

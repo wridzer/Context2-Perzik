@@ -1,0 +1,20 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Thanks for your help! I couldn't have done it without you!"
+    },
+    {
+      "line": "I am curious though... What did you see?"
+    },
+    {
+      "line": "I couldn't see your face very well... but your expression changed!"
+    },
+    {
+      "line": "... So there was something? wh... What did you find out?"
+    },
+    {
+      "line": "TH... THE MONSTER!? You have to do something!"
+    }   
+  ]
+}
