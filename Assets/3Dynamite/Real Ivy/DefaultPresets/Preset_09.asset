@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14d7701cd56353b42a02be1296fa2511, type: 3}
-  m_Name: Preset_07
+  m_Name: Preset_09
   m_EditorClassIdentifier: 
   presetName: Zeewier
   ivyParameters:
@@ -25,7 +25,7 @@ MonoBehaviour:
     maxDistanceToSurface: 0.05
     DTSFrequency: 5
     DTSRandomness: 0.2
-    directionFrequency: 1
+    directionFrequency: 2
     directionAmplitude: 100
     directionRandomness: 1
     gravity: {x: 0, y: -1, z: 0}
@@ -54,7 +54,7 @@ MonoBehaviour:
     LMUVPadding: 0.002
     branchesMaterial: {fileID: 2100000, guid: 2bc7758f26740d140ab9279be99c3fd2, type: 2}
     leavesPrefabs:
-    - {fileID: 658420445870732568, guid: 98bc4429e17002246a547d5f42f1c7d1, type: 3}
+    - {fileID: 658420445870732568, guid: 8c7f607fd035bd8469d2ae36821d3d26, type: 3}
     leavesProb:
     - 1
     generateBranches: 0
