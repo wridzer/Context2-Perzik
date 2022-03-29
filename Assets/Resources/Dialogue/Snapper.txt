@@ -20,7 +20,7 @@
       "line": "They could cause an avalanche and destroy part of the town!"
     },
     {
-      "line": "I would help... but I can't climb these walls... Why do I have to be so weak?"
+      "line": "I would help... but I can't climb these walls, since I... have no fingers."
     },
     {
       "line": "Anyway, goodluck and be careful!"

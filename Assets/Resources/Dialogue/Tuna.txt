@@ -1,0 +1,23 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "STRANGER DANGER"
+    },
+    {
+      "line": "Ohh! Sorry... you looked weird so I didn't recognize you!"
+    },
+    {
+      "line": "I'm bored... Could you help me? I am looking for shells just like this one next to me!"
+    },
+    {
+      "line": "I need 4 shells. You see... I want to make a necklace for my dad... aas a gift!"
+    },
+    {
+      "line": "I'm sure there should be some around here..."
+    },
+    {
+      "line": "Let me know when you got them!"
+    }   
+  ]
+}
