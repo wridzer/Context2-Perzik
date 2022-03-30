@@ -2,31 +2,19 @@
   "dialogues":
   [
     {
-      "line": "Oh OH! Thank god, you found her!"
+      "line": "Hey! Please tell me you have seen Tuna!"
     },
     {
-      "line": "Aww, my poor Tuna... You are covered in ink."
+      "line": "The shockwave scared her and... and she ran away."
     },
     {
-      "line": "Let's get you all cleaned up! But first..."
+      "line": "Please... Let her be okay..."
     },
     {
-      "line": "Thank you so much!"
+      "line": "Hey! If you find her... Please... Bring her back okay?"
     },
     {
-      "line": "I don't know what I would've done without her!"
-    },
-    {
-      "line": "She's the most important thing in my whole life."
-    },
-    {
-      "line": "I owe you one. If you ever need me, you're welcome to visit."
-    },
-    {
-      "line": "For now though... I should really help my little Tuna get rid of the ink."
-    },
-    {
-      "line": "Once again, thank you... my friend."
-    },
+      "line": "I won't be able to do anything without knowing that she's safe!"
+    }
   ]
 }

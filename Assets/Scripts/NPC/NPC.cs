@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
 {
     protected NavMeshAgent navAgent;
     protected bool questComplete = false;
+    protected bool questComplete2 = false;
 
     //Dialogue Variables
     [SerializeField] protected string name;
@@ -28,6 +29,14 @@ public class NPC : MonoBehaviour
         questComplete = true;
         dialogueLines = JSONReader.GetDialogue(name + "1");
     }
+
+    public void QuestComplete2()
+    {
+        questComplete2 = true;
+        dialogueLines = JSONReader.GetDialogue(name + "2");
+    }
+
+
 
     public void Speak()
     {

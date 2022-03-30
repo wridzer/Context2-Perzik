@@ -2,19 +2,16 @@
   "dialogues":
   [
     {
-      "line": "Hey! Please tell me you have seen Tuna!"
+      "line": "Good morning comrade! Rough night?"
     },
     {
-      "line": "The shockwave scared her and... and she ran away."
+      "line": "I guess the attack woke you up, hmm?"
     },
     {
-      "line": "Please... Let her be okay..."
+      "line": "Yeah... It woke me up too, it even destroyed my workbench..."
     },
     {
-      "line": "Hey! If you find her... Please... Bring her back okay?"
-    },
-    {
-      "line": "I won't be able to do anything without knowing that she's safe!"
+      "line": "It will take me a while to fix it again..."
     }
   ]
 }

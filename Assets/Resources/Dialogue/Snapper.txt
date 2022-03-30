@@ -2,28 +2,22 @@
   "dialogues":
   [
     {
-      "line": "Greetings, my confidante..."
+      "line": "AHHH if it isn't my antagonist, Thresher The Great!"
     },
     {
-      "line": "I know I acted rude before, and again I am sorry."
+      "line": "You're not him? I almost beat you up, you look a lot like him..."
     },
     {
-      "line": "But I really need your help!"
+      "line": "NO NO! I was joking! I would never be able to win!"
     },
     {
-      "line": "You see... These shockwaves are dangerous."
+      "line": "I am extremely weak... Please don't hit me!"
     },
     {
-      "line": "If we don't climb this cliff and secure some of the rocks..."
+      "line": "It was just a little joke!"
     },
     {
-      "line": "They could cause an avalanche and destroy part of the town!"
-    },
-    {
-      "line": "I would help... but I can't climb these walls, since I... have no fingers."
-    },
-    {
-      "line": "Anyway, goodluck and be careful!"
+      "line": "A... A.. Anyway, sorry to bother you sir..."
     }
   ]
 }
