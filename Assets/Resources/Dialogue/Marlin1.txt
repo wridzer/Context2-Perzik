@@ -1,0 +1,20 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Hey! Please tell me you have seen Tuna!"
+    },
+    {
+      "line": "The shockwave scared her and... and she ran away."
+    },
+    {
+      "line": "Please... Let her be okay..."
+    },
+    {
+      "line": "Hey! If you find her... Please... Bring her back okay?"
+    },
+    {
+      "line": "I won't be able to do anything without knowing that she's safe!"
+    }
+  ]
+}

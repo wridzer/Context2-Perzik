@@ -1,0 +1,20 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "NOT AGAIN!"
+    },
+    {
+      "line": "The attack destroyed my house..."
+    },
+    {
+      "line": "What makes it worse is, I JUST repaired it from last time!"
+    },
+    {
+      "line": "Could you maybe help me fix it?"
+    },
+    {
+      "line": "It will take too long on my own..."
+    }
+  ]
+}

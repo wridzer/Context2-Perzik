@@ -1,0 +1,23 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "AHHH if it isn't my antagonist, Thresher The Great!"
+    },
+    {
+      "line": "You're not him? I almost beat you up, you look a lot like him..."
+    },
+    {
+      "line": "NO NO! I was joking! I would never be able to win!"
+    },
+    {
+      "line": "I am extremely weak... Please don't hit me!"
+    },
+    {
+      "line": "It was just a little joke!"
+    },
+    {
+      "line": "A... A.. Anyway, sorry to bother you sir..."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Greetings, my confidante..."
+    },
+    {
+      "line": "I know I acted rude before, and again I am sorry."
+    },
+    {
+      "line": "But I really need your help!"
+    },
+    {
+      "line": "You see... These shockwaves are dangerous."
+    },
+    {
+      "line": "You see those light-grayish rocks?"
+    },
+    {
+      "line": "I need you to climb up the walls there and fortify them..."
+    },
+    {
+      "line": "They could cause an avalanche and destroy part of the town if you don't!"
+    },
+    {
+      "line": "I would help... but I can't climb these walls, since I... have no fingers."
+    },
+    {
+      "line": "Anyway, goodluck and be careful!"
+    }
+  ]
+}

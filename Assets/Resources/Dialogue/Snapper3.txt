@@ -1,0 +1,11 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "You should take your newfound information to the big fella..."
+    },
+    {
+      "line": "What's his name? Marvin? Marx? You know, the one with the daughter?"
+    }
+  ]
+}
