@@ -7,19 +7,25 @@ using System.Collections.Generic;
 
 public class NPC : MonoBehaviour
 {
-    protected NavMeshAgent navAgent;
+    public NavMeshAgent navAgent;
     protected bool questComplete = false;
     protected bool questComplete2 = false;
+    public Vector3 destination;
+    public bool walk = false;
 
     //Dialogue Variables
     [SerializeField] protected string name;
-    [SerializeField] private GameObject canvasInstance, textInstance;
+    [SerializeField] private GameObject canvasInstance, textInstance, gameManager, questItem;
     [SerializeField] private List<string> dialogueLines;
     private int dialogueCounter = 0;
 
     private void Awake()
     {
-        dialogueLines = JSONReader.GetDialogue(name);
+        if(name != "Tuna")
+        {
+            dialogueLines = JSONReader.GetDialogue(name);
+
+        }
     }
 
     protected virtual void Move() { }
@@ -32,11 +38,10 @@ public class NPC : MonoBehaviour
 
     public void QuestComplete2()
     {
+        Debug.Log("sdgs");
         questComplete2 = true;
         dialogueLines = JSONReader.GetDialogue(name + "2");
     }
-
-
 
     public void Speak()
     {
@@ -57,6 +62,12 @@ public class NPC : MonoBehaviour
         }
         else
         {
+            if (questComplete2)
+            {
+                Debug.Log("asdads");
+                questItem.SetActive(true);
+                gameManager.GetComponent<GameManager>().TalkedWithNPC();
+            }
             canvasInstance.SetActive(false);
             dialogueCounter = 0;
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossBattleStart : MonoBehaviour
 {
-    [SerializeField] private GameObject BossBattleInstance;
+    //[SerializeField] private GameObject BossBattleInstance;
 
     //on trigger enter
     //place player and disable move
@@ -15,7 +15,7 @@ public class BossBattleStart : MonoBehaviour
         {
             other.transform.position = transform.position;
             other.GetComponent<Movement>().enabled = false;
-            BossBattleInstance.SetActive(true);
+            //BossBattleInstance.SetActive(true);
         }
     }
 }
