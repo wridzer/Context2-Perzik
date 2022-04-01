@@ -14,14 +14,14 @@ public class QuestNPC : NPC
 
     private void Update()
     {
-        if (questComplete)
+        if (walk)
         {
-            //Move();
+            Move();
         }
     }
 
     protected override void Move()
     {
-        navAgent.destination = playerInstance.transform.position;
+        navAgent.destination = destination;
     }
 }

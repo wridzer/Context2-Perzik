@@ -3,7 +3,72 @@ guid: 2b6f614f77c4c5b41a0540d2a50399c7
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default OBJ
+    second: {fileID: 2100000, guid: 167443ab91999c7469e0c7e306e86e35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default OBJ.001
+    second: {fileID: 2100000, guid: d76d19d49fc252e42ab4adb7b2ca162d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default OBJ.002
+    second: {fileID: 2100000, guid: 2982e2955556dbe42ad160620ffbc260, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default OBJ.003
+    second: {fileID: 2100000, guid: 6012cbb581afa6f4d87b403d8f71fd75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: a2ef709fa39db8e4f9d196e7cd3664c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 386a9dd30460451408d55cd49aef99a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: dd96ceedc25633d408c0ce6a26d184d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: bbd945c2e5aa0724e9f187fb2aa2f0ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame_legs.001
+    second: {fileID: 2100000, guid: a4940d713b3aed6429dddb7190e9ae39, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: -color
+    second: {fileID: 2800000, guid: 7b17b90f886b2f448bf780fec67263d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Illustration
+    second: {fileID: 2800000, guid: f43ada831048e624895d447f501b9160, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Illustration2,4
+    second: {fileID: 2800000, guid: be2f765d10e8692489409c190af75005, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: framelegs-color
+    second: {fileID: 2800000, guid: 036e58e32b9c5b049a7a1c2185ed7fde, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
