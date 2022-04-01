@@ -7,6 +7,7 @@ public class BossBattleManager : MonoBehaviour
 {
     [SerializeField] private int stekelAmount;
     private int amountHit;
+    public GameObject octoIdle, octoAttack;
 
     public void StekelHit()
     {
@@ -23,6 +24,7 @@ public class BossBattleManager : MonoBehaviour
     private IEnumerator DisableSquidDelay(float secs)
     {
         yield return new WaitForSeconds(secs);
-        gameObject.SetActive(false);
+        octoIdle.SetActive(true);
+        octoAttack.SetActive(false);
     }
 }

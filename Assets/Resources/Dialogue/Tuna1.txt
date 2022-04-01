@@ -1,0 +1,11 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "T...Thank you!"
+    },
+    {
+      "line": "I will never go in there again!"
+    }
+  ]
+}

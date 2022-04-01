@@ -6,6 +6,27 @@ ModelImporter:
   - first:
       74: 6045588917837687373
     second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act
+  - first:
+      74: 1021757185513375942
+    second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act (1)
+  - first:
+      74: -528973299234356011
+    second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act (2)
+  - first:
+      74: 844815587229293971
+    second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act (3)
+  - first:
+      74: 1979146171799592655
+    second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act (4)
+  - first:
+      74: 8053405077097591261
+    second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act (5)
+  - first:
+      74: -664562542658781957
+    second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act (6)
+  - first:
+      74: -3472411433794020264
+    second: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act (7)
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -30,10 +51,39 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 0
+    animationWrapMode: 2
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act
+      takeName: octopus_anim_milkshape.ms3d.a.001|octopus_anim_milkshape.ms3d.act
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []

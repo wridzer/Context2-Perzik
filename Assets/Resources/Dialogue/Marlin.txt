@@ -8,10 +8,10 @@
       "line": "I guess the attack woke you up, hmm?"
     },
     {
-      "line": "Yeah... It woke me up too, it even destroyed my workbench..."
+      "line": "Yeah... It woke me up too, it was wayy too loud..."
     },
     {
-      "line": "It will take me a while to fix it again..."
+      "line": "It will take a while to get used to it..."
     }
   ]
 }

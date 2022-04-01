@@ -5,16 +5,16 @@
       "line": "Thanks for your help! I couldn't have done it without you!"
     },
     {
-      "line": "I am curious though... What did you see?"
+      "line": "One last thing..."
     },
     {
-      "line": "I couldn't see your face very well... but your expression changed!"
+      "line": "I heard some sounds near the wall behind these houses."
     },
     {
-      "line": "... So there was something? wh... What did you find out?"
+      "line": "If I remember correctly there was a small hole there!"
     },
     {
-      "line": "TH... THE MONSTER!? You have to do something!"
+      "line": "Could you check it out, just in case?"
     }   
   ]
 }

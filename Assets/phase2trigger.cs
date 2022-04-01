@@ -10,7 +10,7 @@ public class phase2trigger : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            squid.GetComponent<Animation>().enabled = true;
+            squid.SetActive(true);
             gameManager.GetComponent<GameManager>().PhaseOneComplete();
         }
     }

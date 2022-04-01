@@ -1,0 +1,14 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "Wha... ? Monsters aren't real silly!"
+    },
+    {
+      "line": "You should ask my dad!"
+    },
+    {
+      "line": "He is very good at this stuff."
+    } 
+  ]
+}

@@ -9,6 +9,9 @@ public class DebrisFalls : MonoBehaviour
     public GameObject trigger;
     public GameObject trigger2;
 
+    public GameObject tunaOutside;
+    public GameObject tunaInside;
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -22,6 +25,8 @@ public class DebrisFalls : MonoBehaviour
     {
         TunaText.SetActive(true);
         rocks.SetActive(true);
+        tunaOutside.SetActive(true);
+        tunaInside.SetActive(false);
 
         yield return new WaitForSeconds(6);
 

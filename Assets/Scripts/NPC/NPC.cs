@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     public NavMeshAgent navAgent;
     protected bool questComplete = false;
     protected bool questComplete2 = false;
+    protected bool questComplete3 = false;
     public Vector3 destination;
     public bool walk = false;
 
@@ -21,26 +22,25 @@ public class NPC : MonoBehaviour
 
     private void Awake()
     {
-        if(name != "Tuna")
-        {
             dialogueLines = JSONReader.GetDialogue(name);
-
-        }
     }
 
     protected virtual void Move() { }
 
     public void QuestComplete()
     {
-        questComplete = true;
         dialogueLines = JSONReader.GetDialogue(name + "1");
     }
 
     public void QuestComplete2()
     {
-        Debug.Log("sdgs");
-        questComplete2 = true;
         dialogueLines = JSONReader.GetDialogue(name + "2");
+    }
+
+    public void QuestComplete3()
+    {
+        questComplete3 = true;
+        dialogueLines = JSONReader.GetDialogue(name + "3");
     }
 
     public void Speak()
@@ -62,7 +62,7 @@ public class NPC : MonoBehaviour
         }
         else
         {
-            if (questComplete2)
+            if (questComplete3)
             {
                 Debug.Log("asdads");
                 questItem.SetActive(true);

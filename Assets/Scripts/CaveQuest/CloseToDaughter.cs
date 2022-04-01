@@ -6,6 +6,7 @@ public class CloseToDaughter : MonoBehaviour
 {
     [SerializeField] private QuestNPC npc;
     [SerializeField] private QuestNPC npc2;
+    [SerializeField] private QuestNPC npc3;
 
     public GameObject trigger;
     public GameObject tunaText;
@@ -37,5 +38,6 @@ public class CloseToDaughter : MonoBehaviour
         climbTriggers.SetActive(true);
         npc.GetComponent<QuestNPC>().QuestComplete2();
         npc2.GetComponent<QuestNPC>().QuestComplete();
+        npc3.GetComponent<QuestNPC>().QuestComplete();
     }
 }

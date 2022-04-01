@@ -2,6 +2,21 @@
   "dialogues":
   [
     {
+      "line": "What did you see?"
+    },
+    {
+      "line": "TH... THE MONSTER!? Wait what? It was hurting?"
+    },
+    {
+      "line": "Maybe we could help it somehow?"
+    },
+    {
+      "line": "Take this piece of scrap I found too, might come in handy..."
+    },
+    {
+      "line": "I suppose it is my way to repay you!"
+    },
+    {
       "line": "You should take your newfound information to the big fella..."
     },
     {

@@ -1,0 +1,32 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "A monster, EHHH!"
+    },
+    {
+      "line": "That would explain most of the recent problems we've had!"
+    },
+    {
+      "line": "I might have an idea to solve this..."
+    },
+    {
+      "line": "I found myself one of these parts."
+    },
+    {
+      "line": "I'm sure the others have one as well, if you can get them all..."
+    },
+    {
+      "line": "I can give you a sword in return!"
+    },
+    {
+      "line": "If we wanna help that monster, that sword might just do the trick."
+    },
+    {
+      "line": "Once you've collected all parts, I will make sure the sword will be ready."
+    },
+    {
+      "line": "Just go back to the climbing spot once you've got them all!"
+    }
+  ]
+}

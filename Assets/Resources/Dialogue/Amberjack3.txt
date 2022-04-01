@@ -1,0 +1,17 @@
+{
+  "dialogues":
+  [
+    {
+      "line": "A monster? Here? SO IT WASN'T JUST BAD LUCK AFTER ALL HAHAHAA"
+    },
+    {
+      "line": "Well thank you for letting me know! I will gather the others!"
+    },
+    {
+      "line": "But before I go, take this, you helped me, so now I will help you..."
+    },
+    {
+      "line": "No idea what it is used for, but if anyone can find out, it's you!"
+    }
+  ]
+}

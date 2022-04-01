@@ -7,25 +7,33 @@ using Unity.XR.CoreUtils;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private QuestNPC npc;
+    [SerializeField] private QuestNPC npc2;
+    [SerializeField] private QuestNPC npc3;
+    [SerializeField] private QuestNPC npc4;
+
+
     int npcsTalkedTo = 0;
-    public List<GameObject> npcs = new List<GameObject>();
 
+    public GameObject tunaOutside, marlinOutside;
 
-    public GameObject octoHurt, octoAttack, sword, BossBattleStart;
+    public GameObject octoHurt, octoIdle, sword, BossBattleStart, rocksOpen;
 
     public void PhaseOneComplete()
     {
-        //npc dialogue 3
-        foreach(GameObject npc in npcs)
-        {
-            npc.GetComponent<NPC>().QuestComplete2();
-        }
+        npc.GetComponent<QuestNPC>().QuestComplete3();
+        npc2.GetComponent<QuestNPC>().QuestComplete3();
+        npc3.GetComponent<QuestNPC>().QuestComplete3();
+        npc4.GetComponent<QuestNPC>().QuestComplete3();
+
+        tunaOutside.SetActive(true);
+        marlinOutside.SetActive(true);
     }
 
     public void TalkedWithNPC()
     {
         npcsTalkedTo++;
-        if (npcsTalkedTo >= 3)
+        if (npcsTalkedTo >= 4)
         {
             Stage3();
         }
@@ -34,8 +42,9 @@ public class GameManager : MonoBehaviour
     public void Stage3()
     {
         octoHurt.SetActive(false);
-        octoAttack.SetActive(true);
+        octoIdle.SetActive(true);
         sword.SetActive(true);
         BossBattleStart.SetActive(true);
+        rocksOpen.SetActive(false);
     }
 }

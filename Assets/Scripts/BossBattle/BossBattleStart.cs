@@ -9,13 +9,17 @@ public class BossBattleStart : MonoBehaviour
     //on trigger enter
     //place player and disable move
     //start battle
+
+    public GameObject octoIdle, octoAttack;
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
             other.transform.position = transform.position;
             other.GetComponent<Movement>().enabled = false;
-            //BossBattleInstance.SetActive(true);
+            octoAttack.SetActive(true);
+            octoIdle.SetActive(false);
+            gameObject.SetActive(false);
         }
     }
 }

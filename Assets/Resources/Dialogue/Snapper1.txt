@@ -17,13 +17,13 @@
       "line": "You see those light-grayish rocks?"
     },
     {
-      "line": "I need you to climb up the walls there and fortify them..."
+      "line": "I need you to climb up the walls there and check those loose rocks..."
     },
     {
       "line": "They could cause an avalanche and destroy part of the town if you don't!"
     },
     {
-      "line": "I would help... but I can't climb these walls, since I... have no fingers."
+      "line": "You could try smacking and touching them a bit... Just making sure they are not loose."
     },
     {
       "line": "Anyway, goodluck and be careful!"

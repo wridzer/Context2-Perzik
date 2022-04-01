@@ -5,8 +5,6 @@ using UnityEngine.AI;
 
 public class NPCTuna : NPC
 {
-    [SerializeField] private GameObject gameManager;
-
     public GameObject NPCTunaPrefab;
 
     private void OnTriggerEnter(Collider other)
